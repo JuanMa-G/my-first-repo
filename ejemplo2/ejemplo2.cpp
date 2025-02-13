@@ -12,5 +12,11 @@ int main(){
     std::cout<<"Address of double: \t"<< &b << " bytes " << std::endl;
     std::cout<<"Address of char: \t"<< c << " bytes " << std::endl;
 
+    int h = 2;
+    h += 8; // h = h+8
+    h *= 2; // h = h*2
+
+    std::cout<<"'h' value: \t"<< h << std::endl;
+
     return 0;
 }
